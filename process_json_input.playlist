@@ -1,0 +1,1 @@
+<Playlist Version="1.0"><Add Test="ProcessingAuditingUtest::JsonInputProcessingTests::TestInvalidRules_InvalidContentDeclaration" /><Add Test="ProcessingAuditingUtest::JsonInputProcessingTests::TestInvalidRules_InvalidPutCommand" /></Playlist>

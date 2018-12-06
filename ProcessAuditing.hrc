@@ -1,0 +1,30 @@
+#ifndef IDC_STATIC
+#    define IDC_STATIC -1
+#endif
+
+#define VER_FILEVERSION         1, 0, 0, 0
+#define VER_FILEVERSION_STR     "1.0.0"
+
+#define VER_PRODUCTVERSION      4,3,1,0
+#define VER_PRODUCTVERSION_STR  "4.3.1.0"
+
+#define VER_COMPANYNAME_STR     "Binary Defense Systems"
+
+#define VER_FILEDESCRIPTION_STR "BinaryDefense Vision Agent Process Auditing"
+
+#define VER_INTERNALNAME_STR    "bds-vision-agent-pao"
+
+#define VER_ORIGFILENAME_STR    "bds-vision-agent-pao.exe"
+
+#define VER_PRODUCTNAME_STR     "bds-vision-agent-pao"
+
+#ifndef DEBUG
+#    define VER_DEBUG 0
+#else
+#    define VER_DEBUG VS_FF_DEBUG
+#endif
+
+#define IDI_APPLICATION_ICON  101
+#define IDS_APPLICATION_NAME  104
+#define IDS_APPLICATION_TITLE 105
+#define IDT_SVC_STATUS_CHECK  107
